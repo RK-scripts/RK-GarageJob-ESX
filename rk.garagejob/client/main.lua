@@ -1,6 +1,5 @@
 local ESX = nil
 
--- Carica il file di configurazione
 Config = Config or {}
 Config.Garages = Config.Garages or {}
 
@@ -43,7 +42,6 @@ local function SpawnVehicle(model, coords, maxSpawn, colors, useCustomColors)
     SetVehicleHasBeenOwnedByPlayer(vehicle, true)
     SetVehicleNeedsToBeHotwired(vehicle, false)
     
-    -- Applica i colori solo se useCustomColors è true
     if useCustomColors and colors then
         if colors.primary then
             local primaryRGB = hexToRGB(colors.primary)
@@ -55,7 +53,6 @@ local function SpawnVehicle(model, coords, maxSpawn, colors, useCustomColors)
         end
     end
     
-    -- Imposta il serbatoio di benzina pieno
     Entity(vehicle).state.fuel = 100.0
     
     SetModelAsNoLongerNeeded(hash)
