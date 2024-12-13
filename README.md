@@ -24,5 +24,5 @@ Main features:
   • Compatibility with the Fuel System
     Full integration with ox_fuel to ensure spawned vehicles respect fuel management parameters, improving gameplay immersion and consistency.
 
-discord: https://discord.gg/z8NP6qNZ
+discord: https://discord.gg/yhG9GkhytW
 ![Screenshot (580)](https://github.com/user-attachments/assets/2bc6df5e-e31f-4bc0-b90a-ce88ff5da929)
